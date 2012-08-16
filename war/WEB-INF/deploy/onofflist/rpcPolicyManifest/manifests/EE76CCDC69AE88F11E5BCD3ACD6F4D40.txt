@@ -1,0 +1,2 @@
+serviceClass: com.jg.core.client.CoreService
+path: 14EBF69D4CFB94B5B9669879B89BC5CB.gwt.rpc

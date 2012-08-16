@@ -1,0 +1,256 @@
+/** Add css rules here for your application. */
+
+
+
+@font-face{
+    font-family: "klavika";
+    src: url('Klavika-Regular.otf');
+}
+
+.sharediv {
+    padding-top: 10px;
+    padding-bottom: 4px;
+
+    background-color:rgb(240, 240, 240);
+}
+.shareurl {
+    padding-top: 3px;
+padding-bottom: 3px;
+}
+
+.listitem_on {
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+  font-size: 30px;
+  padding: 3px 9px 3px 9px;
+
+  background: -moz-linear-gradient(center top, #002762, #00274E) repeat scroll 0 0 transparent;
+      background: -webkit-gradient(linear, left top, left bottom, from(#002762), to(#00274E));
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#002762', endColorstr = '#00274E');
+
+
+  color: white;
+  border-bottom:1px solid white;
+}
+
+.listitem_off {
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+  font-size: 30px;
+  padding: 3px 9px 3px 9px;
+	  background-color: rgb(150, 150, 150);
+  color: rgb(240, 240, 240);
+  margin-bottom:1px;
+
+}
+
+
+
+.todoList{
+
+}
+
+.popup{
+       background: -moz-linear-gradient(center top, #F7A852, #F59023) repeat scroll 0 0 transparent;
+       background: -webkit-gradient(linear, left top, left bottom, from(#F7A852), to(#F59023));
+       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#F7A852', endColorstr = '#F59023');
+
+           -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+           -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+           box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    border: 1px solid rgb(100,100,100);
+
+}
+
+.popup_all{
+     font-family: klavika;
+     font-size:20px;
+}
+
+.popup_top{
+    color:white;
+    padding:9px;
+}
+
+.popup_medium{
+    color:white;
+    padding-left:9px;
+    padding-right:9px;
+}
+
+.popup_bottom{
+    width: 30px;
+    margin:0 auto;
+    padding:9px;
+    font-size:16px;
+
+}
+
+.popup_button{
+       font-family: klavika;
+       font-size:20px;
+       color:#00274E;
+}
+
+.startpage_all{
+     padding-top:60px;
+     font-family: klavika;
+     font-size:20px;
+}
+
+.startpage_top{
+     width: 300px;
+     margin:0 auto;
+  text-align:center;
+
+  color:#00274E;
+  padding:10px;
+
+}
+
+.startpage_bottom{
+  width: 300px;
+  margin:0 auto;
+  text-align:center;
+  padding:10px;
+}
+
+.startpage_noaccount{
+  font-size:14px;
+  width: 300px;
+  margin:0 auto;
+  text-align:center;
+  padding:4px;
+  padding-top:0px;
+  color:#00274E;
+
+}
+
+.listpage_help{
+     font-family: klavika;
+     font-size:16px;
+     color: rgb(150, 150, 150);
+     width: 300px;
+     background-color:white;
+     margin:0 auto;
+  text-align:center;
+
+
+  padding:10px;
+  padding-top:60px;
+}
+
+
+
+
+.addPanel{
+    padding-top: 6px;
+    padding-bottom: 6px;
+	width: 100%;
+	font-size: 20px;
+	 background-color: rgb(150, 150, 150);
+
+
+}
+
+.listpage{
+background-color: rgb(240, 240, 240);;
+
+}
+
+.name{
+	display: inline;
+	height:40px;
+	margin-top: 10px;
+}
+
+.minusAndPlus{
+	display: inline;
+	float: right;
+}
+
+
+
+
+.textBox{
+font-size: 16px;
+  background-color: white;
+  color: black;
+  display: inline;
+    width:33%;
+	height: 24px;
+	margin-left: 6px;
+	padding-left:3px;
+	border: 1px solid rgb(0,39,78);
+
+}
+
+
+.colorbutton3, .colorbutton3:link {
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    background: -moz-linear-gradient(center top, #002762, #00274E) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, left top, left bottom, from(#002762), to(#00274E));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#002762', endColorstr = '#00274E');
+
+    color: white;
+    display: inline-block;
+    font-size: 28px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom:6px;
+    font-family: klavika;
+
+}
+
+.colorbutton3:hover, .colorbutton3:visited {
+    cursor: pointer;
+       -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, .3);
+        -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 2px 3px rgba(0, 0, 0, .3);
+}
+
+
+
+
+
+.plus{
+	font-size: 20px;
+    padding-left: 9px;
+  color: white;
+	display: inline;
+	cursor: pointer;
+
+}
+
+
+.gwt-Button {
+    white-space: nowrap;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    border: solid 1px #b7b7b7;
+    background: #fff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+    background: -moz-linear-gradient(top, #fff, #ededed);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#ededed');
+}
+
+.gwt-Button:hover {
+    background: #ededed;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dcdcdc));
+    background: -moz-linear-gradient(top, #fff, #dcdcdc);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#dcdcdc');
+}
+
+.gwt-Button:active {
+    color: #999;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#fff));
+    background: -moz-linear-gradient(top, #ededed, #fff);
+}
+
